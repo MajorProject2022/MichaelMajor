@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="style/modal4.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -25,7 +25,7 @@
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalCenteredLabel">Add Diploma Information</h4>
+                <h4 class="modal-title" id="exampleModalCenteredLabel">Edit Brochure</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -33,16 +33,19 @@
             <div class="modal-body">
                 <form class='d-flex'>
                     <div class="form-group flex-fill">
-                        <label id='label' for="formGroupExampleInput">Title</label>
+                        <label id='label' for="formGroupExampleInput">Name</label>
                         <input  type="text" class="form-control" id="formGroupExampleInput" placeholder="Ben Dover">
                    
                   
-                        <label class='mt-2' id='label' for="formGroupExampleInput2">YouTube video link</label>
+                        <label class='mt-2' id='label' for="formGroupExampleInput2">Link</label>
                         <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Class of 2020">
                     </div>
                     <div class='pl-4'>
-                    <label class=' d-block' id='label' for="textarea">Description:</label>
-                    <textarea id="textarea" name="story" rows="5" cols="33">Type Something...</textarea>
+                        
+                        
+                    <span class=' d-block' id='label'>Photo:<button type="file" class="btn ml-5 mb-4" id='but2'>Edit Photo</button></span>
+                    <img class='img-fluid' id='photo'  src='../image/Placement_Area.png'>
+            
                 </div>
                 </form>
             </div>
