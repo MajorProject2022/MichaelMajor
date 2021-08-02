@@ -1,0 +1,26 @@
+.modal-title{
+    color: #E6162F;
+    font-weight:700;
+}
+#label{
+    font-weight: 700;
+}
+#but1{
+    border-width: 1.5px;
+    border-color: black;
+    font-weight: 500;
+    border-radius: 8px
+}
+#but2{
+    border-width: 1.5px;
+    background-color: #E6162F;
+    font-weight: 500;
+    border-radius: 8px;
+    color:white;
+}
+#photo{
+   
+    width: 226px;
+    height: 130px;
+
+}
